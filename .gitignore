@@ -4,3 +4,11 @@ Data_Making/data/processed/yoochoose_click_binary_1M_sess.dataset
 Data_Making/yoochoose-test.dat
 Data_Making/yoochoose-buys.dat
 Data_Making/yoochoose-clicks.dat
+Data_Making/test/data/Cora/Cora/raw/ind.cora.allx
+Data_Making/test/data/Cora/Cora/raw/ind.cora.ally
+Data_Making/test/data/Cora/Cora/raw/ind.cora.graph
+Data_Making/test/data/Cora/Cora/raw/ind.cora.test.index
+Data_Making/test/data/Cora/Cora/raw/ind.cora.tx
+Data_Making/test/data/Cora/Cora/raw/ind.cora.ty
+Data_Making/test/data/Cora/Cora/raw/ind.cora.y
+Data_Making/test/data/Cora/Cora/raw/ind.cora.x
