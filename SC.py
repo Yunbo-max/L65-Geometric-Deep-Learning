@@ -2,7 +2,7 @@
 # @Author: Yunbo
 # @Date:   2024-02-27 12:00:07
 # @Last Modified by:   Yunbo
-# @Last Modified time: 2024-02-27 14:01:45
+# @Last Modified time: 2024-02-28 17:21:13
 import pandas as pd
 import numpy as np
 import torch
@@ -22,8 +22,8 @@ def calculate_eigenvalues_eigenvectors(adjacency_matrices):
         
         # Calculate eigenvalues and eigenvectors of the Laplacian matrix
         eigenvals, eigvecs = np.linalg.eigh(laplacian_matrix)
-        eigenvalues.append(eigenvals)
-        eigenvectors.append(eigvecs)
+        eigenvalues.append(torch.tensor(eigenvals))  # Convert to tensor here
+        eigenvectors.append(torch.tensor(eigvecs))  # Convert to tensor here
     return eigenvalues, eigenvectors
 
 # Function to create adjacency matrices for each graph
