@@ -12,3 +12,6 @@ Data_Making/test/data/Cora/Cora/raw/ind.cora.tx
 Data_Making/test/data/Cora/Cora/raw/ind.cora.ty
 Data_Making/test/data/Cora/Cora/raw/ind.cora.y
 Data_Making/test/data/Cora/Cora/raw/ind.cora.x
+Dataset/e-commerce/yoochoose-buys.dat
+Dataset/e-commerce/yoochoose-clicks.dat
+Dataset/e-commerce/yoochoose-test.dat
