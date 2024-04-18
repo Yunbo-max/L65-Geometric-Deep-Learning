@@ -15,3 +15,6 @@ Data_Making/test/data/Cora/Cora/raw/ind.cora.x
 Dataset/e-commerce/yoochoose-buys.dat
 Dataset/e-commerce/yoochoose-clicks.dat
 Dataset/e-commerce/yoochoose-test.dat
+GNN/创建自己的数据集/yoochoose-test.dat
+*.dataset
+/GNN/创建自己的数据集
